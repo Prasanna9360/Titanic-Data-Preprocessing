@@ -64,10 +64,10 @@ It demonstrates a complete end-to-end workflow from raw data to model evaluation
 ```
 Titanic-Data-Preprocessing/
 │
-├── Titanic-Dataset.csv        # Raw dataset
-├── cleaned_titanic.csv        # Processed dataset
-├── preprocessing.ipynb        # Full implementation
-├── README.md                  # Project documentation
+├── Titanic-Dataset.csv                      # Raw dataset
+├── cleaned_titanic.csv                      # Processed dataset
+├── Data Cleaning & Preprocessing.ipynb      # Full implementation
+├── README.md                                # Project documentation
 ```
 
 ---
