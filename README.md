@@ -1,28 +1,95 @@
-# Titanic Data Cleaning & Preprocessing
+# 🚢 Titanic Data Preprocessing & Machine Learning Project
 
-## Objective
+## 📌 Project Overview
 
-To clean and preprocess raw Titanic dataset for machine learning.
+This project focuses on cleaning and preprocessing the Titanic dataset and building a machine learning model to predict passenger survival.
 
-## Steps Performed
+It demonstrates a complete end-to-end workflow from raw data to model evaluation.
 
-* Handled missing values (Age, Embarked)
-* Dropped unnecessary columns (Cabin, Name, Ticket)
-* Converted categorical variables into numerical
-* Applied feature scaling (Standardization)
-* Removed outliers using IQR method
+---
+
+## ⚙️ Steps Performed
+
+### 🧹 Data Cleaning
+
+* Handled missing values using median (Age) and mode (Embarked)
+* Dropped irrelevant or highly missing columns (Cabin)
+
+### 🔄 Feature Engineering
+
+* Converted categorical variables into numerical format
+* Applied Label Encoding (Sex)
+* Applied One-Hot Encoding (Embarked)
+
+### 📏 Feature Scaling
+
+* Standardized numerical features (Age, Fare) using StandardScaler
+
+### 📊 Outlier Detection
+
+* Visualized outliers using boxplots
+* Removed outliers using IQR (Interquartile Range) method
+
+### 🤖 Model Building
+
+* Split dataset into training and testing sets
 * Trained Logistic Regression model
-* Evaluated model using Accuracy and Confusion Matrix
 
-## Tools Used
+### 📈 Model Evaluation
 
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+* Evaluated model using Accuracy Score
+* Visualized performance using Confusion Matrix
 
-## Output
+---
 
-* Cleaned dataset (`cleaned_titanic.csv`)
-* Model accuracy achieved
+## 📊 Results
 
-## Author
+* Cleaned dataset generated successfully
+* Machine learning model trained and evaluated
+* Achieved reliable prediction performance on test data
 
-Prasanna G
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* Scikit-learn
+
+---
+
+## 📁 Project Structure
+
+```
+Titanic-Data-Preprocessing/
+│
+├── Titanic-Dataset.csv        # Raw dataset
+├── cleaned_titanic.csv        # Processed dataset
+├── preprocessing.ipynb        # Full implementation
+├── README.md                  # Project documentation
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+2. Open the notebook (`preprocessing.ipynb`)
+3. Run all cells
+4. View results and outputs
+
+---
+
+## 🎯 Key Learnings
+
+* Data preprocessing techniques in machine learning
+* Handling missing and categorical data
+* Feature scaling and outlier removal
+* Model training and evaluation workflow
+
+---
+
+## 👨‍💻 Author
+
+**Prasanna G**
