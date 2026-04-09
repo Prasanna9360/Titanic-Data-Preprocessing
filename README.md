@@ -93,3 +93,12 @@ Titanic-Data-Preprocessing/
 ## 👨‍💻 Author
 
 **Prasanna G**
+---
+
+## 📸 Output Preview
+
+### 🔹 Model Accuracy
+![Accuracy](accuracy.png)
+
+### 🔹 Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
